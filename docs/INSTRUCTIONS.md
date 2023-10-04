@@ -81,14 +81,9 @@ Test in een browser of de versie die je net online gezet hebt ook via GitHub pag
 
 ## Definition of Done
 
-Focus sprint 2 - De focus in deze sprint ligt op het maken van een opdracht voor een opdrachtgever en het presenteren van het resultaat. Kennismaken met het vakgebied, communiceren en presenteren. Hoe kom je over bij je opdrachtgever. Durven.
-
 Deze opdracht is done als:
 
 - [ ] De 9 basis layouts en/of 9 advanced layouts zijn geïmplementeerd;
 - [ ] Alle breakdown schetsen voor de layouts in je wiki zijn opgenomen;
 - [ ] Bij elke schets staat een korte uitleg hoe je code werkt.
 - [ ] Al je werk te bekijken is via GitHub pages;
-
-Als je klaar bent laat je deze deeltaak afzonderlijk checken door een docent, je doet dus een checkpoint op alléén deze deeltaak. Je kunt op elk moment een checkpoint doen en hoeft niet te wachten op een/ de laatste vrijdag.
-

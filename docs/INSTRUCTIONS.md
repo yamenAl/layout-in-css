@@ -1,5 +1,5 @@
 
-# The Client - Layout in CSS
+# Layout in CSS
 
 Een oefening in document layout met CSS.
 

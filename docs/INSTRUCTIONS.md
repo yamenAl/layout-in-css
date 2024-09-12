@@ -7,7 +7,7 @@ Een oefening in document layout met CSS.
 
 Deze leertaak hoort bij sprint 2 the client. Dit is een deeltaak die je individueel uitvoert en waarmee je bewijslast verzameld.
 
-In het college _S02W02 Flow en Layout_ wordt verteld over layout en grids, deze deeltaak behandeld verschillende typen layouts en is bedoeld als robuuste oefening in het maken van layouts.
+_In het college _S02W02 Flow en Layout_ wordt verteld over layout en grids, deze deeltaak behandeld verschillende typen layouts en is bedoeld als robuuste oefening in het maken van layouts._
 
 > *“Wax on right hand. Wax off left hand. Wax on, wax off. Breathe in through nose, out through mouth. Wax on, wax off. Don't forget to breathe. Very important.”* - Mr. Miyagi
 

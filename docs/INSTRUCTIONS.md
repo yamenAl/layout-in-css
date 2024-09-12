@@ -9,7 +9,6 @@ Deze leertaak hoort bij sprint 2 the client. Dit is een deeltaak die je individu
 
 _In het college _S02W02 Flow en Layout_ wordt verteld over layout en grids, deze deeltaak behandeld verschillende typen layouts en is bedoeld als robuuste oefening in het maken van layouts._
 
-> *“Wax on right hand. Wax off left hand. Wax on, wax off. Breathe in through nose, out through mouth. Wax on, wax off. Don't forget to breathe. Very important.”* - Mr. Miyagi
 
 ## Doel van deze opdracht
 
@@ -18,6 +17,9 @@ In onderstaande afbeelding zie je 18 verschillende layouts die je met CSS kunt m
 ![9 basic en 9 advanced layouts](../src/assets/layouts.png)
 
 Waarom zou je dit doen? Omdat je oefent met veel verschillende layouts met de vier basis document elementen. Na het succesvol implementeren van alle bovenstaande layouts heb je altijd een soort *spiekbriefje* om naar terug te kijken als je een layout maakt.
+
+> *“Wax on right hand. Wax off left hand. Wax on, wax off. Breathe in through nose, out through mouth. Wax on, wax off. Don't forget to breathe. Very important.”* - Mr. Miyagi
+
 
 ## Werkwijze
 

@@ -1,5 +1,5 @@
 > _Fork_ deze deeltaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
-De instructie vind je in: [docs/INSTRUCTIONS.md](https://github.com/fdnd-task/layout-in-css/blob/main/docs/INSTRUCTIONS.md)
+De instructie vind je in: [INSTRUCTIONS](https://github.com/fdnd-task/layout-in-css/blob/main/docs/INSTRUCTIONS.md)
 
 # Layout in CSS
 

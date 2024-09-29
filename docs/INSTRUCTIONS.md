@@ -1,22 +1,22 @@
 
 # Layout in CSS
 
-Een oefening in document layout met CSS.
+Een oefening in layout modes met CSS.
 
 ## Context
 
-Deze leertaak hoort bij sprint 2 the client. Dit is een deeltaak die je individueel uitvoert en waarmee je bewijslast verzameld.
+Deze leertaak hoort bij Sprint 2 The Client. Dit is een deeltaak die je individueel uitvoert en waarmee je bewijslast verzamelt.
 
-_In het college _S02W02 Flow en Layout_ wordt verteld over layout en grids, deze deeltaak behandeld verschillende typen layouts en is bedoeld als robuuste oefening in het maken van layouts._
+_In het college _S02W02 Flow en Layout_ wordt verteld over layout modes in CSS. Deze deeltaak behandelt verschillende typen layouts en is bedoeld als robuuste oefening in het maken van layouts.
 
 
 ## Doel van deze opdracht
 
-In onderstaande afbeelding zie je 18 verschillende layouts die je met CSS kunt maken. Negen daarvan zijn basic layouts welke je met grid-template-areas en grid-area goed kunt realiseren. Naast deze basic layouts zijn er ook negen advanced layouts waarvoor je iets meer trucage uit je mouw moet schudden. 
+In onderstaande afbeelding zie je 18 verschillende layouts die je met CSS kunt maken. Negen daarvan zijn basic layouts welke je met Normal Flow, Grid Layout, Flexible Box Layout en Float Layout kunt maken. Naast deze basic layouts zijn er ook negen advanced layouts waarvoor je iets meer trucage uit je mouw moet schudden.
 
 ![9 basic en 9 advanced layouts](../src/assets/layouts.png)
 
-Waarom zou je dit doen? Omdat je oefent met veel verschillende layouts met de vier basis document elementen. Na het succesvol implementeren van alle bovenstaande layouts heb je altijd een soort *spiekbriefje* om naar terug te kijken als je een layout maakt.
+Waarom zou je dit doen? Omdat je oefent met veel verschillende layouts met verschillende Layout Modes. Na het succesvol implementeren van alle bovenstaande layouts heb je altijd een soort *spiekbriefje* om naar terug te kijken als je een layout maakt.
 
 > *“Wax on right hand. Wax off left hand. Wax on, wax off. Breathe in through nose, out through mouth. Wax on, wax off. Don't forget to breathe. Very important.”* - Mr. Miyagi
 
@@ -28,7 +28,8 @@ Omdat deze deeltaak bestaat uit 18 kleine taken doorloop je telkens de developme
 Deze opdracht gaat over alle fases van de DLC: [analyseren](#analyseren), [ontwerpen](#ontwerpen), [bouwen](#bouwen), [integreren](#integreren) en [testen](#testen).
 
 ### Analyseren
-Je onderzoekt kort welke layout je nu gaat maken en denkt alvast na over hoe je dat zou kunnen doen.
+
+Je onderzoekt kort welke layout je nu gaat maken, welke layout mode hiervoor geschikt is, en denkt alvast na over hoe je dat zou kunnen doen.
 
 #### Aanpak
 
@@ -37,7 +38,8 @@ Je onderzoekt kort welke layout je nu gaat maken en denkt alvast na over hoe je 
 3. Bepaal de stappen die je neemt bij ontwerpen, bouwen, integreren en testen. Met andere woorden, lees de hele instructie even door.
 
 ### Ontwerpen
-Maak een snelle schets welke je gebruikt om de layout te implementeren.
+
+Maak een snelle breakdown schets van de CSS, welke je gebruikt om de layout te implementeren.
 
 #### Aanpak
 

@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-:root {
+html {
   font-size: min(calc(1em + 1vw), 4em);
 }
 body {
@@ -11,19 +11,22 @@ body {
 body > * {
   min-height: 1em;
 }
-header {
-  background: cyan;
-}
-header > h1 {
+h1 {
   margin: 0;
 }
+header {
+  background: #009FDF;
+}
 nav {
-  background: magenta;
+  background: #D40F7D;
 }
 main {
-  background: yellow;
+  background: #FAE100;
 }
 footer {
-  background: black;
+  background: #2C2A29;
   color: white;
+}
+a, a:visited {
+  color: inherit;
 }

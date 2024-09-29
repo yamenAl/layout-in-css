@@ -16,26 +16,58 @@ In onderstaande afbeelding zie je 18 verschillende layouts die je met CSS kunt m
 
 ![9 basic en 9 advanced layouts](../src/assets/layouts.png)
 
-Waarom zou je dit doen? Omdat je oefent met veel verschillende layouts met verschillende Layout Modes. Na het succesvol implementeren van alle bovenstaande layouts heb je altijd een soort *spiekbriefje* om naar terug te kijken als je een layout maakt.
+Waarom zou je dit doen? Omdat je oefent met veel verschillende layouts en verschillende Layout Modes. Na het succesvol implementeren van alle bovenstaande layouts heb je altijd een soort *spiekbriefje* om naar terug te kijken als je een layout maakt.
 
 > *“Wax on right hand. Wax off left hand. Wax on, wax off. Breathe in through nose, out through mouth. Wax on, wax off. Don't forget to breathe. Very important.”* - Mr. Miyagi
 
 
 ## Werkwijze
 
-Omdat deze deeltaak bestaat uit 18 kleine taken doorloop je telkens de development lifecycle. Misschien had je al vaker het idee dat je dit telkens in het klein doet bij elke grotere opdracht.
+Omdat deze deeltaak bestaat uit 18 kleine opdrachten doorloop je telkens de development lifecycle. Misschien had je al vaker het idee dat je dit telkens in het klein doet bij elke grotere opdracht, als je een probleem oplost.
 
-Deze opdracht gaat over alle fases van de DLC: [analyseren](#analyseren), [ontwerpen](#ontwerpen), [bouwen](#bouwen), [integreren](#integreren) en [testen](#testen).
+Voor elke layout die je uit gaat werken, gelden onderstaande stappen. Werk in eerste instantie alle basic layouts uit, en ga door met de advanced layouts als je nog zin hebt in een uitdaging.
 
 ### Analyseren
 
-Je onderzoekt kort welke layout je nu gaat maken, welke layout mode hiervoor geschikt is, en denkt alvast na over hoe je dat zou kunnen doen.
+Kies een layout die je gaat maken. Onderzoek kort welke layout mode hiervoor geschikt is. Hieronder staat een lijst met hints die je zou kunnen gebruiken.
 
 #### Aanpak
 
-1. (Alleen de eerste keer) Fork deze repository naar jouw eigen GitHub account;
-2. Kies een layout die aan de beurt is;
-3. Bepaal de stappen die je neemt bij ontwerpen, bouwen, integreren en testen. Met andere woorden, lees de hele instructie even door.
+1. Maak een nieuw issue aan op je repo, met daarin de naam en het nummer van de layout die je gaat maken.
+2. Schrijf alvast wat hints over de Layout mode die je gaat gebruiken, en links naar bronnen die je nodig gaat hebben in de beschrijving van je issue.
+3. Ga door naar Ontwerpen.
+
+#### Hints
+
+- Basic layout 1: Grid Layout
+- Basic layout 2: Flow Layout, Grid Layout of Flexible Box Layout
+- Basic layout 3: Grid Layout
+- Basic layout 4: Grid Layout
+- Basic layout 5: Flow Layout, Grid Layout of Flexible Box Layout
+- Basic layout 6: Grid Layout
+- Basic layout 7: Flow Layout én Float Layout gecombineerd
+- Basic layout 8: Flow Layout én Positioned Layout gecombineerd
+- Basic layout 9: Grid Layout én Flexible Box Layout gecombineerd
+
+Voor de advanced layouts kun je deze hints gebruiken:
+
+- Advanced layout 1: Multi-column layout of Masonry layout (experimenteel)
+- Advanced layout 2: Grid Layout + Transforms
+- Advanced layout 3: Grid Layout
+- Advanced layout 4: Grid Layout + clip-path
+- Advanced layout 5: Grid Layout
+- Advanced layout 6: Grid Layout of Positioned Layout
+- Advanced layout 7: Grid Layout of Positioned Layout + Transforms
+- Advanced layout 8: Positioned Layout
+- Advanced layout 9: Grid Layout + border-radius of clip-path
+
+#### Bronnen
+
+- [Layout mode](https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_mode)
+- [A Complete Guide to Grid @ CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [A Complete Guide to Flexbox @ CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Flow Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flow_layout)
+- [Floats](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats)
 
 ### Ontwerpen
 
@@ -43,51 +75,51 @@ Maak een snelle breakdown schets van de CSS, welke je gebruikt om de layout te i
 
 #### Aanpak
 
-1. Onderzoek met behulp van CSS-Tricks hoe je de layout zou kunnen maken in CSS (Grid voor de basic layouts, misschien wat Flexbox bij de advanced layouts).
-2. Maak een breakdown schets en zet er wat hints bij over hoe je de vlakverdeling met CSS kunt bereiken. 
-3. Teken het grid met een afwijkende kleur in jouw breakdown.
-4. Schrijf in de breakdown wat het header, nav, main en footer element is;
-5. Voeg een foto van de breakdown toe aan de wiki, geef de pagina de naam van de betreffende layout.
-
-#### Materiaal 
-
-- [A Complete Guide to Grid @ css-tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
-- [A Complete Guide to Flexbox @ css-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+1. Onderzoek met behulp van bovenstaande bronnen en hints hoe je de layout zou kunnen maken in CSS, en welke eigenschappen van die layout mode je hiervoor nodig gaat hebben.
+2. Teken de layout na op papier en zet er wat annotaties bij over hoe je de vlakverdeling met CSS kunt bereiken. 
+3. Voor Grid Layout: teken de grid lines met een afwijkende kleur over de layout heen.
+4. Voeg je schets toe als reactie op het issue dat je net hebt aangemaakt.
+5. Ga door naar Bouwen.
 
 ### Bouwen
-Implementeer de layout in het `<style></style>` element in de head van het betreffende html document.
+
+Implementeer de layout in het `<style></style>` element in de head van het betreffende HTML bestand dat al voor je klaar staat.
 
 #### Aanpak
 
-1. Definieer het grid (hint: grid-template-areas);
-2. Pas het grid toe op jouw document elementen (hint: grid-area);
-3. Check doorlopend jouw aanpassingen in de browser (baby-steps approach).
+1. Gebruik de hints, de bronnen hierboven, je eigen onderzoek en je breakdown schets om de CSS voor de layout uit te schrijven in het HTML bestand dat al voor je klaar staat. Als het goed is, hoef je aan de HTML zelf niets te veranderen.
+2. Gebruik voor Grid Layout en Flexible Box Layout de highlighter tools in je devtools.
+3. Vraag regelmatig om feedback of hulp, en overleg met medestudenten.
+4. Check doorlopend jouw aanpassingen in de browser (baby-steps approach), totdat je tevreden bent.
+5. Ga door naar Integreren.
 
 ### Integreren
-Voer een commit uit op jouw GitHub met de layout die je zojuist geïmplementeerd hebt. Op deze manier kan je altijd terug naar een versie waarvan je weet dat alles in orde was.
+
+Voer een commit uit op jouw GitHub repository met de layout die je zojuist geïmplementeerd hebt. Op deze manier kan je altijd terug naar een versie waarvan je weet dat alles in orde was.
 
 #### Aanpak
 
-1. Voer in GitHub een commit message in, gebruik de naam van de layout die je zojuist geïmplementeerd hebt;
-2. Verstuur de commit naar GitHub door te *pushen*;
-3. Beschrijf in de wiki hoe je het implementeren van deze layout hebt aangepakt (bijvoorbeeld: ik heb met grid-template-area…). Beschrijf ook wat er heel goed ging en wat lastig was;
-4. Neem in je wiki een direct linkje naar de betreffende layout op.
+1. Voer in GitHub een commit message in, gebruik de naam van de layout die je zojuist geïmplementeerd hebt, en noem het nummer van het issue waar je aan werkt.
+2. Push je code naar GitHub.
+3. Ga door naar Testen.
 
 ### Testen
+
 Test in een browser of de versie die je net online gezet hebt ook via GitHub pages werkt.
 
 #### Aanpak
 
-1. Open jouw repository via de directe link;
-2. Check of alles werkt;
-3. Vergelijk jouw implementatie even met een klasgenoot;
-4. Schrijf heel kort op wat je opviel bij het testen.
+1. Open jouw repository via de directe link van GitHub Pages.
+2. Check of alles werkt.
+3. Vergelijk jouw implementatie even met een klasgenoot.
+4. Als je iets nieuws hebt gebruikt voor deze layout, beschrijf dit dan in je Learning Journal.
+
+Ga hierna opnieuw door al deze stappen heen met een volgende layout.
 
 ## Definition of Done
 
 Deze opdracht is done als:
 
-- [ ] De 9 basis layouts en/of 9 advanced layouts zijn geïmplementeerd;
-- [ ] Alle breakdown schetsen voor de layouts in je wiki zijn opgenomen;
-- [ ] Bij elke schets staat een korte uitleg hoe je code werkt.
-- [ ] Al je werk te bekijken is via GitHub pages;
+- [ ] De 9 basis layouts zijn geïmplementeerd.
+- [ ] Alle breakdown schetsen voor de layouts in je issues zijn opgenomen.
+- [ ] Al je werk te bekijken is via GitHub pages.

@@ -1,9 +1,6 @@
 * {
   box-sizing: border-box;
 }
-html {
-  font-size: min(calc(1em + 1vw), 4em);
-}
 body {
   min-height: 100vh;
   font-family: sans-serif;
@@ -13,17 +10,18 @@ body > * {
 }
 h1 {
   margin: 0;
+  font-size: 100%;
 }
-header {
+header, .cyan {
   background: #009FDF;
 }
-nav {
+nav, .magenta {
   background: #D40F7D;
 }
-main {
+main, .yellow {
   background: #FAE100;
 }
-footer {
+footer, .black {
   background: #2C2A29;
   color: white;
 }

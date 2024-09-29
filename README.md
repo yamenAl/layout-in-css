@@ -1,8 +1,10 @@
-> _Fork_ deze deeltaak en ga aan de slag. De instructie vind je in: [INSTRUCTIONS](https://github.com/fdnd-task/layout-in-css/blob/main/docs/INSTRUCTIONS.md)
-
 # Layout in CSS
 
 Een oefening in layout modes met CSS.
+
+De instructie vind je in: [INSTRUCTIONS](https://github.com/fdnd-task/layout-in-css/blob/main/docs/INSTRUCTIONS.md)
+
+
 
 ## Licentie
 

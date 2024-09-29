@@ -12,7 +12,7 @@ _In het college _S02W02 Flow en Layout_ wordt verteld over layout modes in CSS. 
 
 ## Doel van deze opdracht
 
-In onderstaande afbeelding zie je 18 verschillende layouts die je met CSS kunt maken. Negen daarvan zijn basic layouts welke je met Normal Flow, Grid Layout, Flexible Box Layout en Float Layout kunt maken. Naast deze basic layouts zijn er ook negen advanced layouts waarvoor je iets meer trucage uit je mouw moet schudden.
+In onderstaande afbeelding zie je 18 verschillende layouts die je met CSS kunt maken. Negen daarvan zijn basic layouts welke je met Normal Flow, Grid Layout, Flexible Box Layout, Float Layout en Positioned Layout kunt maken. Naast deze basic layouts zijn er ook negen advanced layouts waarvoor je iets meer trucage uit je mouw moet schudden.
 
 ![9 basic en 9 advanced layouts](../assets/layouts.png)
 
@@ -122,4 +122,4 @@ Deze opdracht is done als:
 
 - [ ] De 9 basis layouts zijn geïmplementeerd.
 - [ ] Alle breakdown schetsen voor de layouts in je issues zijn opgenomen.
-- [ ] Al je werk te bekijken is via GitHub pages.
+- [ ] Al je werk is te bekijken via GitHub pages.

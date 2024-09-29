@@ -7,14 +7,14 @@ Een oefening in layout modes met CSS.
 
 Deze leertaak hoort bij Sprint 2 The Client. Dit is een deeltaak die je individueel uitvoert en waarmee je bewijslast verzamelt.
 
-_In het college _S02W02 Flow en Layout_ wordt verteld over layout modes in CSS. Deze deeltaak behandelt verschillende typen layouts en is bedoeld als robuuste oefening in het maken van layouts.
+_In het college _S02W02 Flow en Layout_ wordt verteld over layout modes in CSS. Deze deeltaak behandelt verschillende typen layouts en is bedoeld als robuuste oefening in het maken van layouts._
 
 
 ## Doel van deze opdracht
 
 In onderstaande afbeelding zie je 18 verschillende layouts die je met CSS kunt maken. Negen daarvan zijn basic layouts welke je met Normal Flow, Grid Layout, Flexible Box Layout en Float Layout kunt maken. Naast deze basic layouts zijn er ook negen advanced layouts waarvoor je iets meer trucage uit je mouw moet schudden.
 
-![9 basic en 9 advanced layouts](../src/assets/layouts.png)
+![9 basic en 9 advanced layouts](../assets/layouts.png)
 
 Waarom zou je dit doen? Omdat je oefent met veel verschillende layouts en verschillende Layout Modes. Na het succesvol implementeren van alle bovenstaande layouts heb je altijd een soort *spiekbriefje* om naar terug te kijken als je een layout maakt.
 

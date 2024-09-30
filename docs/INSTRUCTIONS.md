@@ -56,7 +56,7 @@ Kies een layout die je gaat maken. Onderzoek kort welke Layout Mode hiervoor ges
 
 Voor de advanced layouts kun je deze hints gebruiken:
 
-- Advanced layout 1: Multi-column layout of Masonry layout (experimenteel)
+- Advanced layout 1: Multi-column Layout of Masonry Layout (experimenteel)
 - Advanced layout 2: Grid Layout + Transforms
 - Advanced layout 3: Grid Layout
 - Advanced layout 4: Grid Layout + clip-path
@@ -98,8 +98,8 @@ Implementeer de layout in het betreffende HTML bestand dat al voor je klaar staa
 
 #### Aanpak
 
-1. Gebruik de hints, de bronnen hierboven, je eigen onderzoek en je breakdown schets om de CSS voor de layout uit te schrijven in het HTML bestand dat al voor je klaar staat. Als het goed is, hoef je aan de HTML zelf niets te veranderen, en kun je in het `<style></style>` element aan de slag.
-2. Gebruik voor Grid Layout en Flexible Box Layout de highlighter tools in je devtools. Zie de bronnen hieronder voor meer informatie.
+1. Gebruik de hints, de bronnen hierboven, je eigen onderzoek en je breakdown schets om de CSS voor de layout uit te schrijven in het HTML bestand dat al voor je klaar staat in de `basic` en `advanced` mappen in deze repo. Als het goed is, hoef je aan de HTML zelf niets te veranderen, en kun je in het `<style></style>` element aan de slag.
+2. Gebruik voor Grid Layout en Flexible Box Layout de inspector tools in je devtools. Zie de bronnen hieronder voor meer informatie.
 3. Vraag regelmatig om feedback of hulp, en overleg met medestudenten.
 4. Check doorlopend jouw aanpassingen in de browser (baby-steps approach), totdat je tevreden bent. De layouts hoeven uiteraard niet pixel-perfect nagemaak te worden.
 5. Ga door naar Integreren.

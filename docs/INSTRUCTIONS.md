@@ -1,13 +1,17 @@
 
 # Layout in CSS
 
-Een oefening in layout modes met CSS.
+Een oefening in Layout Modes met CSS.
 
 ## Context
 
 Deze leertaak hoort bij Sprint 2 The Client. Dit is een deeltaak die je individueel uitvoert en waarmee je bewijslast verzamelt.
 
-_In het college _S02W02 Flow en Layout_ wordt verteld over layout modes in CSS. Deze deeltaak behandelt verschillende typen layouts en is bedoeld als robuuste oefening in het maken van layouts._
+_In het college _S02W02 Flow en Layout_ wordt verteld over Layout Modes in CSS. Deze deeltaak behandelt verschillende typen layouts en is bedoeld als robuuste oefening in het maken van layouts._
+
+CSS heeft een aantal verschillende manieren waarop je HTML kunt voorzien van een layout. Elke manier heeft eigen voor- en nadelen, en het is goed om de verschillende methodes je eigen te maken. Layout modes zijn ook te combineren, waardoor je verschillende ontwerpproblemen kunt oplossen.
+
+Nadat je gestructureerde HTML hebt gemaakt, kun je elk onderdeel van een pagina of component van layout voorzien. En gecombineerd met media queries kun je responsive layouts maken.
 
 
 ## Doel van deze opdracht
@@ -27,14 +31,15 @@ Omdat deze deeltaak bestaat uit 18 kleine opdrachten doorloop je telkens de deve
 
 Voor elke layout die je uit gaat werken, gelden onderstaande stappen. Werk in eerste instantie alle basic layouts uit, en ga door met de advanced layouts als je nog zin hebt in een uitdaging.
 
+
 ### Analyseren
 
-Kies een layout die je gaat maken. Onderzoek kort welke layout mode hiervoor geschikt is. Hieronder staat een lijst met hints die je zou kunnen gebruiken.
+Kies een layout die je gaat maken. Onderzoek kort welke Layout Mode hiervoor geschikt is. Hieronder staat een lijst met hints die je zou kunnen gebruiken.
 
 #### Aanpak
 
 1. Maak een nieuw issue aan op je repo, met daarin de naam en het nummer van de layout die je gaat maken.
-2. Schrijf alvast wat hints over de Layout mode die je gaat gebruiken, en links naar bronnen die je nodig gaat hebben in de beschrijving van je issue.
+2. Schrijf alvast wat hints over de Layout Mode die je gaat gebruiken, en links naar bronnen die je nodig gaat hebben in de beschrijving van je issue.
 3. Ga door naar Ontwerpen.
 
 #### Hints
@@ -63,11 +68,16 @@ Voor de advanced layouts kun je deze hints gebruiken:
 
 #### Bronnen
 
-- [Layout mode](https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_mode)
+- [Layout mode @ MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_mode)
+- [Layout @ web.dev](https://web.dev/learn/css/layout/)
+- [CSS layout @ MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout)
 - [A Complete Guide to Grid @ CSS Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [A Complete Guide to Flexbox @ CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-- [Flow Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flow_layout)
-- [Floats](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats)
+- [Flow Layout @ MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flow_layout)
+- [Floats @ MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats)
+- [CSS challenge 1: Grid, door Sanne](https://github.com/fdnd-task/css-challenges/blob/main/docs/challenge_grid.md)
+- [CSS challenge 4: Flexbox, door Sanne](https://github.com/fdnd-task/css-challenges/blob/main/docs/challenge_flexbox.md)
+
 
 ### Ontwerpen
 
@@ -75,23 +85,32 @@ Maak een snelle breakdown schets van de CSS, welke je gebruikt om de layout te i
 
 #### Aanpak
 
-1. Onderzoek met behulp van bovenstaande bronnen en hints hoe je de layout zou kunnen maken in CSS, en welke eigenschappen van die layout mode je hiervoor nodig gaat hebben.
+1. Onderzoek met behulp van bovenstaande bronnen en hints hoe je de layout zou kunnen maken in CSS, en welke eigenschappen van die Layout Mode je hiervoor nodig gaat hebben.
 2. Teken de layout na op papier en zet er wat annotaties bij over hoe je de vlakverdeling met CSS kunt bereiken. 
 3. Voor Grid Layout: teken de grid lines met een afwijkende kleur over de layout heen.
 4. Voeg je schets toe als reactie op het issue dat je net hebt aangemaakt.
 5. Ga door naar Bouwen.
 
+
 ### Bouwen
 
-Implementeer de layout in het `<style></style>` element in de head van het betreffende HTML bestand dat al voor je klaar staat.
+Implementeer de layout in het betreffende HTML bestand dat al voor je klaar staat.
 
 #### Aanpak
 
-1. Gebruik de hints, de bronnen hierboven, je eigen onderzoek en je breakdown schets om de CSS voor de layout uit te schrijven in het HTML bestand dat al voor je klaar staat. Als het goed is, hoef je aan de HTML zelf niets te veranderen.
-2. Gebruik voor Grid Layout en Flexible Box Layout de highlighter tools in je devtools.
+1. Gebruik de hints, de bronnen hierboven, je eigen onderzoek en je breakdown schets om de CSS voor de layout uit te schrijven in het HTML bestand dat al voor je klaar staat. Als het goed is, hoef je aan de HTML zelf niets te veranderen, en kun je in het `<style></style>` element aan de slag.
+2. Gebruik voor Grid Layout en Flexible Box Layout de highlighter tools in je devtools. Zie de bronnen hieronder voor meer informatie.
 3. Vraag regelmatig om feedback of hulp, en overleg met medestudenten.
-4. Check doorlopend jouw aanpassingen in de browser (baby-steps approach), totdat je tevreden bent.
+4. Check doorlopend jouw aanpassingen in de browser (baby-steps approach), totdat je tevreden bent. De layouts hoeven uiteraard niet pixel-perfect nagemaak te worden.
 5. Ga door naar Integreren.
+
+#### Bronnen
+
+- [CSS Grid Inspector: Examine grid layouts @ Firefox](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/examine_grid_layouts/index.html)
+- [CSS Flexbox Inspector: Examine Flexbox layouts @ Firefox](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/examine_flexbox_layouts/index.html)
+- [Inspect CSS grid layouts @ Chrome](https://developer.chrome.com/docs/devtools/css/grid)
+- [Inspect and debug CSS flexbox layouts @ Chrome](https://developer.chrome.com/docs/devtools/css/flexbox/)
+
 
 ### Integreren
 
@@ -103,9 +122,10 @@ Voer een commit uit op jouw GitHub repository met de layout die je zojuist geïm
 2. Push je code naar GitHub.
 3. Ga door naar Testen.
 
+
 ### Testen
 
-Test in een browser of de versie die je net online gezet hebt ook via GitHub pages werkt.
+Test in een browser of de versie die je net online gezet hebt ook via GitHub Pages werkt.
 
 #### Aanpak
 
@@ -116,10 +136,11 @@ Test in een browser of de versie die je net online gezet hebt ook via GitHub pag
 
 Ga hierna opnieuw door al deze stappen heen met een volgende layout.
 
+
 ## Definition of Done
 
 Deze opdracht is done als:
 
-- [ ] De 9 basis layouts zijn geïmplementeerd.
+- [ ] De 9 basis layouts zijn voltooid aan de hand van bovenstaande stappen.
 - [ ] Alle breakdown schetsen voor de layouts in je issues zijn opgenomen.
 - [ ] Al je werk is te bekijken via GitHub pages.

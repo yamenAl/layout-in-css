@@ -1,7 +1,7 @@
 
 # Layout in CSS
 
-Een oefening in Layout Modes met CSS.
+Een oefening in Layout Modes met CSS. Fork deze deeltaak, en ga aan de slag.
 
 ## Context
 
@@ -38,7 +38,7 @@ Kies een layout die je gaat maken. Onderzoek kort welke Layout Mode hiervoor ges
 
 #### Aanpak
 
-1. Maak een nieuw issue aan op je repo, met daarin de naam en het nummer van de layout die je gaat maken.
+1. Maak een nieuw issue aan op jouw geforkte repo, met daarin de naam en het nummer van de layout die je gaat maken.
 2. Schrijf alvast wat hints over de Layout Mode die je gaat gebruiken, en links naar bronnen die je nodig gaat hebben in de beschrijving van je issue.
 3. Ga door naar Ontwerpen.
 
